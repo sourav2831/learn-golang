@@ -1,0 +1,4 @@
+1. Main file needs package main
+2. create a build -> go build main.go
+3. run a build -> ./main
+4. run a file -> go run main.go
