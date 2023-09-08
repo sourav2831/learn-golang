@@ -4,6 +4,10 @@ import "fmt"
 
 func main(){
 	//var variableName string="Hello world";
-	variableName:="Hello world";
+	variableName:=getVariableName()
 	fmt.Println(variableName)
+}
+
+func getVariableName()string{
+	return "Hello world"
 }
