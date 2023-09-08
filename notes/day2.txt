@@ -1,0 +1,6 @@
+1. Declaring variable in go -> 
+    a) var varName string
+    b) varName:=
+2. function in go should be declare with func and should have return type
+3. Slices in go is array of same data type
+4. varName:=[]string{}
