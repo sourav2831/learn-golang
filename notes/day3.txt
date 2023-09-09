@@ -1,0 +1,5 @@
+1. Go is not object oriented
+2. We can declare custom type in go with keyword type
+3. Receiver functions are functions called by any type, they have syntax (varName type) after func
+4. In go we can divide slices by slice range syntax varName[startIndex:endIndex]
+5. In go we can return multiple value from function, just have to mention in comma seprated way.
