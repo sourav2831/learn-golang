@@ -6,7 +6,9 @@ func main(){
 	// fmt.Println(variableName)
 	//slice()
 	cards:=newDeck()
-	cards.print();
+	hand,remainingCards:=deal(cards,5)
+	hand.print()
+	remainingCards.print()
 }
 
 func getVariableName()string{
