@@ -5,7 +5,7 @@ func main(){
 	// variableName:=getVariableName()
 	// fmt.Println(variableName)
 	//slice()
-	cards:=deck{"Ace of Diamonds","Five of Diamonds"}
+	cards:=newDeck()
 	cards.print();
 }
 
