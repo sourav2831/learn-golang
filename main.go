@@ -10,6 +10,7 @@ func main(){
 	hand.print()
 	remainingCards.print()
 	cards.toString()
+	cards.saveToFile("deck")
 }
 
 func getVariableName()string{

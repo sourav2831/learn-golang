@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"strings"
 )
 
@@ -25,12 +26,15 @@ func deal(d deck, handSize int) (deck,deck){
 }
 
 func (d deck) toString() string {
-	fmt.Println(strings.Join(d, ","))
 	return strings.Join(d, ",")
+}
+
+func (d deck) saveToFile(filename string) error {
+	return os.WriteFile(filename, []byte(d.toString()), 0666)
 }
 
 func (d deck) print(){
 	for i,card:=range d{
-		fmt.Println(i,card)
+		fmt.Println(i, card)
 	}
 }
