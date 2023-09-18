@@ -1,0 +1,7 @@
+1. For reading the file from Hard Drive we need to use ReadFile method from os package
+2. ReadFile method returns two value, one is byte slice and second is err if any
+3. string(bs) method convert byte slice to string and Split will crate a slice
+4. rand method from Math package generate random number.
+5. We have to change seed value to have randomized value, for that we have to create a NewSource.
+6. In NewSource which takes Int64 value, we can get from time package.
+7. By using this new source we can generate randome number with new seeds each time.
