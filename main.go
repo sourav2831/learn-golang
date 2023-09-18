@@ -5,14 +5,16 @@ func main(){
 	// variableName:=getVariableName()
 	// fmt.Println(variableName)
 	//slice()
-	cards:=newDeck()
-	hand,remainingCards:=deal(cards,5)
-	hand.print()
-	remainingCards.print()
-	cards.toString()
-	cards.saveToFile("deck")
+	// cards:=newDeck()
+	// hand,remainingCards:=deal(cards,5)
+	// hand.print()
+	// remainingCards.print()
+	// cards.toString()
+	// cards.saveToFile("deck")
+	cards := newDeckFromFile("deck")
+	cards.print()
 }
 
-func getVariableName()string{
+func getVariableName() string {
 	return "Hello world"
 }
