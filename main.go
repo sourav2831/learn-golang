@@ -34,7 +34,13 @@ func main(){
 			zipCode: "121323",
 		},
 	}
+	bobPointer:=&bob;
+	bobPointer.updateName("joe")
 	fmt.Printf("%+v",bob)
+}
+
+func (personPointer *person) updateName(name string){
+	(*personPointer).firstName = name;
 }
 
 func getVariableName() string {
