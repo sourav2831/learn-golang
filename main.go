@@ -12,7 +12,7 @@ func main(){
 	// cards.toString()
 	// cards.saveToFile("deck")
 	// cards := newDeckFromFile("deck")
-	cards.shuffle()
+	// cards.shuffle()
 	cards.print()
 }
 
