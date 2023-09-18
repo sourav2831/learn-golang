@@ -1,0 +1,7 @@
+1. Structs in go is similar to Objects in javascript
+2. Structs in go is pass by value
+3. If we want to update structs in functions then we need to use pointers
+4. &variable, will give address, and *variable will give value
+5. Maps, slice are pass by reference in go
+6. maps are iteratable while structs are not.
+7. Maps have same type of key and also dont require pointers
