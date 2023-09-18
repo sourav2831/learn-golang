@@ -1,0 +1,4 @@
+1. For writing anything to local memory we have to use WriteFile method from os package
+2. For that we need []byte slices which takes string.
+3. We need to convert our []String to string by using strings package, strings.join
+4. os.WriteFile will write in our file
