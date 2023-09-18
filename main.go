@@ -5,13 +5,14 @@ func main(){
 	// variableName:=getVariableName()
 	// fmt.Println(variableName)
 	//slice()
-	// cards:=newDeck()
+	cards:=newDeck()
 	// hand,remainingCards:=deal(cards,5)
 	// hand.print()
 	// remainingCards.print()
 	// cards.toString()
 	// cards.saveToFile("deck")
-	cards := newDeckFromFile("deck")
+	// cards := newDeckFromFile("deck")
+	cards.shuffle()
 	cards.print()
 }
 
