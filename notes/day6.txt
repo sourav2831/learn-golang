@@ -1,0 +1,4 @@
+1. Need go.mod file for testing
+2. For test cases, the name should start with Test
+3. For runinng test cases , run go test
+4. For IO testing, need to remove files after test with os.Remove(filename)
