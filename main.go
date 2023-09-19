@@ -36,12 +36,16 @@ func main(){
 	// }
 	// bob.updateName("joe")
 	// fmt.Printf("%+v",bob)
-	m:=make(map[string]string)
-	m["color1"]="#ffff"
-	m["color2"]="#eb12"
-	// delete(m,"color1")
-	printMap(m)
-	fmt.Println(m)
+	// m:=make(map[string]string)
+	// m["color1"]="#ffff"
+	// m["color2"]="#eb12"
+	// // delete(m,"color1")
+	// printMap(m)
+	// fmt.Println(m)
+	english:=englishBot{}
+	spanish:=spanishBot{}
+	printGreeting(english)
+	printGreeting(spanish)
 }
 
 func printMap(m map[string]string){
